@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/img/wallpaperflare.com_wallpaper.jpg");
+    height: 100vh;
+    width: 100vw;
+}
+
+.stoneIcon {
+    height: 150px;
+}
+
+.itemContainer {
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: cenetr;
+    font-family: 'Permanent Marker', cursive;
+    color: #FFF;
+    font-size: clamp(30px, 8vw, 50px);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left img {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.steveIcon {
+    height: 250px;
+    width: 250px;
+}
+
+.score {
+    margin-top: 100px;
+}
+
+button {
+    font-family: 'Permanent Marker', cursive;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #000;
+    color: #FFF;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.rulesButton {
+    margin-top: 40px;
+    width: 150px;
+}
